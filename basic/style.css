@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  padding: 16px;
+  height: 200vh;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  height: 100%;
+  /* position: relative; */
+}
+
+.container p {
+  padding: 16px;
+}
+
+.static {
+  position: static;
+  background-color: darkblue;
+}
+
+.relative {
+  background-color: darkgoldenrod;
+  position: relative;
+  /* top, bottom, left, right */
+  /* top: 100px;
+  left: -16px;
+  z-index: 2; */
+}
+
+.absolute {
+  background-color: darkgreen;
+  /* position: absolute;
+  top: 150px;
+  z-index: 1; */
+}
+
+.fixed {
+  background-color: darkmagenta;
+  /* position: fixed;
+  top: 130px;
+  left: 100px; */
+}
+
+.sticky {
+  background-color: darkred;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
